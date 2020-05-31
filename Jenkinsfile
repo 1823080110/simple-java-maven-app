@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
 	            bat 'D:'
-	            bat 'D:/ruanjian/workspace/simple-java-maven-app'
+	            bat 'D:/ruanjian/workspace/s'
                 bat 'mvn -B -DskipTests clean package'
             }
         }
@@ -18,6 +18,5 @@ pipeline {
                 }
             }
         }
-        
     }
 }
