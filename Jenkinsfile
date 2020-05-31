@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
 	            bat 'D:'
-	            bat 'D:/ruanjian/workspace/s'
+	            bat 'cd D:/ruanjian/workspace/s'
                 bat 'mvn -B -DskipTests clean package'
             }
         }
